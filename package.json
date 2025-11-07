@@ -1,0 +1,24 @@
+{
+  "name": "claude-search",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "search": "bun run index.ts",
+    "interactive": "bun run interactive-search.ts",
+    "plain": "bun run search-with-context.ts",
+    "extract": "bun run extract-text.ts"
+  },
+  "bin": {
+    "claude-search": "./claude-search.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.9.0"
+  }
+}
