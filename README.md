@@ -26,6 +26,11 @@ This tool extracts all text content from your Claude Code conversation history (
 ## Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/johnlindquist/claude-search.git
+cd claude-search
+
+# Install dependencies
 bun install
 ```
 
